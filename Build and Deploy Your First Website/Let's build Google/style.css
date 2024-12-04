@@ -1,0 +1,16 @@
+.hpage{
+    margin-top: 100px;
+}
+img{
+    /*Display Block stacks on top*/
+    /*Block level elemnt blocks out the remaining horizontal space*/
+    width: 300px;
+    display: block;
+}
+
+input{
+    width: 400px;
+    display: block;
+    /*Margin is used to create spacing between the borders of two elements*/
+    /*Padding is used to create spacing between the contents of an element and it borders*/
+}
