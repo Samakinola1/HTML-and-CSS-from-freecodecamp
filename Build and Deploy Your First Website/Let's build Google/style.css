@@ -1,14 +1,19 @@
-.hpage{
+/*Element selectors do not need a dot in front e.g img, input*/
+/*Class Selectors need a dot in front e.g .main, .logo*/
+
+.main{
     margin-top: 100px;
 }
-img{
+
+.logo{
     /*Display Block stacks on top*/
     /*Block level elemnt blocks out the remaining horizontal space*/
     width: 300px;
     display: block;
+    margin-bottom: 20px;
 }
 
-input{
+.searchBox{
     width: 400px;
     display: block;
     /*Margin is used to create spacing between the borders of two elements*/
