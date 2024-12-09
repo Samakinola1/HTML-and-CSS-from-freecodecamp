@@ -1,8 +1,18 @@
 /*Element selectors do not need a dot in front e.g img, input*/
 /*Class Selectors need a dot in front e.g .main, .logo*/
-
+/*
+You can center an element by doing the following three
+1. Setting the width
+2. Make display block
+3. Make margin-left and margin-right auto
+*/
 .main{
     margin-top: 100px;
+    /*
+    Text-align does not work for only texts
+    It works for all inline elments
+    */
+    /*text-align: center;*/
 }
 
 .logo{
@@ -10,12 +20,48 @@
     /*Block level elemnt blocks out the remaining horizontal space*/
     width: 300px;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 20px;
 }
 
 .searchBox{
     width: 400px;
+    line-height: 24px;
+    /*
+    Some browsers might not honor height
+    So, it is preferable to use line-height
+    */
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     /*Margin is used to create spacing between the borders of two elements*/
     /*Padding is used to create spacing between the contents of an element and it borders*/
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.btn-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+    border: none;
+    background-color: #dfe1e5;
+    cursor: pointer;
 }

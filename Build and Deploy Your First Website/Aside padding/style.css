@@ -1,0 +1,17 @@
+/*
+Divs are block by default and if you do not specify any width
+they take up the whole space
+*/
+
+.card{
+    color: #222222;
+    background-color: lightgrey;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 3px solid #222222;
+    border-radius: 20px;
+    /*By default, the padding of a div is zero*/
+}
